@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body class="bg-teal-400">
+    <main class="h-screen  flex justify-center items-center">
+        <div class="calculator bg-gray-600 p-3 rounded-lg">
+            <form>
+                <div class="grid mb-3">
+                    <input type="text" id="display" name="display" value="0" class="text-right text-2xl shadow-inner 
+                    bg-white border-0 rounded py-4 px-3">
+                </div>
+                <div class="grid grid-cols-4 gap-3">
+                    <button type="button" value="AC" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">AC</button>
+                    <button type="button" value="" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">DE</button>
+                    <button type="button" value="*100/" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">%</button>
+                    <button type="button" value="/" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">÷</button>
+
+                    <button type="button" value="7" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">7</button>
+                    <button type="button" value="8" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">8</button>
+                    <button type="button" value="9" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">9</button>
+                    <button type="button" value="*" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">×</button>
+
+                    <button type="button" value="4" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">4</button>
+                    <button type="button" value="5" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">5</button>
+                    <button type="button" value="6" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">6</button>
+                    <button type="button" value="-" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">-</button>
+
+                    <button type="button" value="1" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">1</button>
+                    <button type="button" value="2" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">2</button>
+                    <button type="button" value="3" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">3</button>
+                    <button type="button" value="+" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">+</button>
+
+                    <button type="button" value="00" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">00</button>
+                    <button type="button" value="0" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">0</button>
+                    <button type="button" value="." class="text-2xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-3xl">.</button>
+                    <button type="button" value="=" class="text-xl shadow shadow-black h-16 w-16 bg-[#b1b493]  
+                    font-semibold text-center rounded  text-white hover:text-2xl">=</button>
+
+
+                </div>
+
+            </form>
+
+        </div>
+        </div>
+    </main>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
